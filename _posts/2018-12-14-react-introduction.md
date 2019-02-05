@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'react introduction'
+title: 'React 介绍'
 subtitle: ''
 author: 'Jevaeson'
 header-img: 'img/post-bg-web.jpg'
