@@ -1,3 +1,15 @@
+---
+layout: post
+title: 'react introduction'
+subtitle: ''
+author: 'Jevaeson'
+header-img: 'img/post-bg-web.jpg'
+header-mask: 0.4
+tags:
+  - Web
+  - 笔记
+---
+
 # react 介绍
 
 之前的处理 直接操作 dom 节点
