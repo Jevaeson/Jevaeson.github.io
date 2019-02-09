@@ -153,6 +153,9 @@ html {
 }
 
 /** Venders Logo **/
+.icon-redux:before {
+  color: #7649bb;
+}
 .i-vue:before {
   content: '';
   display: block;
