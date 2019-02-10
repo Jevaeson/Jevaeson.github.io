@@ -5,6 +5,7 @@ subtitle: ''
 author: 'Jevaeson'
 header-img: 'img/post-bg-web.jpg'
 header-mask: 0.4
+catalog: true
 tags:
   - Web
   - 笔记
