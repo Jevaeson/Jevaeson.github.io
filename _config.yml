@@ -74,7 +74,7 @@ ga_domain: huangxuan.me
 
 # Sidebar settings
 sidebar: true # whether or not using Sidebar.
-sidebar-about-description: '流水不争先'
+sidebar-about-description: '如果你要拥有你从未有过的东西<br>那么你必须去做你从未做过的事情'
 sidebar-avatar: /img/me.jpg # use absolute URL, seeing it's used in both `/` and `/about/`
 
 # Featured Tags
