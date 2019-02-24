@@ -164,4 +164,4 @@ react 项目是单页面应用，要实现页面提转的话需要依赖 react �
 
 - 在项目下安装 react-router-dom `npm i react-router-dom`
 - 在 App.js 内引入 BrowserRouter 。`import { BroswerRouter } from 'react-router-dom`
-  BroswerRouter 是 react-router-dom 包内的一个 react 组件，该组件的作用是
+  BroswerRouter 是 react-router-dom 包内的一个 react 组件
