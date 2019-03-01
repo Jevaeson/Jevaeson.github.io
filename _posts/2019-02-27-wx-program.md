@@ -3,7 +3,7 @@ layout: post
 title: '微信小程序'
 subtitle: ''
 author: 'Jevaeson'
-header-img: 'img/post-bg-extgen-web-pwa.jpg'
+header-img: 'img/post-bg-nextgen-web-pwa.jpg'
 header-mask: 0.4
 catalog: true
 tags:
