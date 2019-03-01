@@ -50,7 +50,7 @@ tags:
 |`<text></text>`|`<span></span>`|所有文字内容都可以写在这里|
 |`<icon></icon>`| / | 微信图标：拥有type属性 |
 |`<progress></progress>`|/|进度条|
-|`<picker></picker>`|/|从底部弹起的滚动选择器。通过mode来区分，分别是普通选择器，多列选择器，时间选择器，日期选择器，省市区选择器，默认是普通选择器|
+|`<picker></picker>`|/|从底部弹起的滚动选择器|
 |`<navigator></navigator>`|`<a></a>`|/|
 |`<switch />`|/|开关|
 |`<audio></audio>`|`<audio></audio>`|音频|
