@@ -90,14 +90,17 @@ Page({
 ```
 
 index.wxml
+{% raw %}
 
-```hbs
+```html
 <text>{{a}}</text>
 <view>
   <button size="mini" class="{{b?'active':''}}">实现按钮消失出现</button>
   <button wx:if="{{b}}" size="mini">测试按钮</button>
 </view>
 ```
+
+{% endraw %}
 
 列表渲染
 
@@ -109,12 +112,15 @@ Page({
 })
 ```
 
+{% raw %}
+
 ```hbs
 <view wx:for="{{arr}}" wx:key="{{index}}">
-  {{ item }}
+  {{item}}
 </view>
 ```
 
+{% endraw %}
 事件绑定
 
 运用 this.setData 方法来修改 data
