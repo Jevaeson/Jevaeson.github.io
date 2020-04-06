@@ -91,12 +91,12 @@ Page({
 
 index.wxml
 
-```js
-<text>{{a}}</text>//0
+```html
+<text>{{a}}</text>
 <view>
-    <button size='mini' class="{{b?'active':''}}">实现按钮消失出现</button>
-  <button wx:if="{{b}}" size='mini'>我是测试按钮</button>
-  </view>
+  <button size="mini" class="{{b?'active':''}}">实现按钮消失出现</button>
+  <button wx:if="{{b}}" size="mini">我是测试按钮</button>
+</view>
 ```
 
 列表渲染
@@ -109,8 +109,8 @@ Page({
 })
 ```
 
-```js
-<view wx:for='{{arr}}' wx:key='{{index}}'>
+```html
+<view wx:for="{{arr}}" wx:key="{{index}}">
   {{ item }}
 </view>
 ```
@@ -155,8 +155,8 @@ app.globalData.c
 
 默认地址从 pages/index/
 
-```js
-<navigator url='../user/user'>去user</navigator>
+```html
+<navigator url="../user/user">去user</navigator>
 ```
 
 # picker
@@ -169,11 +169,11 @@ app.globalData.c
 
 index.wxml
 
-```js
+```html
 <picker range="{{sexArr}}" value="{{sexInd}}" bindchange="selectSex">
-<view >
-性别{{sexArr[sexInd]}}
-</view>
+  <view>
+    性别{{sexArr[sexInd]}}
+  </view>
 </picker>
 ```
 
