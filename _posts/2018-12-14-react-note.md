@@ -38,18 +38,16 @@ react vue angular 虚拟 dom
 
 -打开 App.js,删除 import logo from './logo.svg'; import './App.css'; 并且把 return 内的所有内容删除,替换成 <div>hello world</div>
 
-```react
-import React, { Component } from 'react';
+```js
+import React, { Component } from 'react'
 
 class App extends Component {
   render() {
-    return (
-      <div>hello world</div>
-    );
+    return <div>hello world</div>
   }
 }
 
-export default App;
+export default App
 ```
 
 ### react 内的 jsx 语法
