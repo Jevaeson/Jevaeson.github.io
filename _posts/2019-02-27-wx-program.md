@@ -91,7 +91,7 @@ Page({
 
 index.wxml
 
-```html
+```hbs
 <text>{{a}}</text>
 <view>
   <button size="mini" class="{{b?'active':''}}">实现按钮消失出现</button>
@@ -109,7 +109,7 @@ Page({
 })
 ```
 
-```html
+```hbs
 <view wx:for="{{arr}}" wx:key="{{index}}">
   {{ item }}
 </view>
@@ -169,7 +169,7 @@ app.globalData.c
 
 index.wxml
 
-```html
+```hbs
 <picker range="{{sexArr}}" value="{{sexInd}}" bindchange="selectSex">
   <view>
     性别{{sexArr[sexInd]}}
