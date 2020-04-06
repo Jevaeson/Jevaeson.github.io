@@ -54,11 +54,13 @@ export default App;
 
 ### react 内的 jsx 语法
 
+{% raw %}
 jsx 语法：js 内部写 html。只有导入了 react 这个包，react 项目内才能写 jsx 语法。 使用 ReactDOM.render 将虚拟的 reactDom 加载到真实的 dom 节点上。 我们把 react 项目中的 js 称作为 组件。组件内部默认有个 render 方法 ,该方法内写 return，返回的内容就是该组件的 html 结构。 jsx 元素只能被包裹在一个闭合标签内，组件的 return 只能返回一个标签 react 组件内的 render 方法是默认就执行的，想要在 jsx 内使用 js 需要将 js 使用大括号包裹 jsx 内使用 style 属性 style = {{width:'200px'}} jsx 的属性不能写成关键字 class -> className for -> htmlFor
+{% endraw %}
 
 ### 组件的样式
 
-1.行内样式，但是必须写成 `style = {{width:'200px'}}`
+{% raw %} 1.行内样式，但是必须写成 `style = {{width:'200px'}}`{% endraw %}
 
 2.外链样式 直接新建 css 文件，当做模块导入即可 import '路径需要写后缀名'
 

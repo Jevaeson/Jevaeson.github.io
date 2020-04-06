@@ -92,7 +92,7 @@ Page({
 index.wxml
 {% raw %}
 
-```html
+```hbs
 <text>{{a}}</text>
 <view>
   <button size="mini" class="{{b?'active':''}}">实现按钮消失出现</button>
@@ -174,6 +174,7 @@ app.globalData.c
 在这里我们选择普通选择器即可，range 属性是我们存放选择数组的地方，value 属性是存放数组下标的地方（默认为 0）。
 
 index.wxml
+{% raw %}
 
 ```hbs
 <picker range="{{sexArr}}" value="{{sexInd}}" bindchange="selectSex">
@@ -183,6 +184,7 @@ index.wxml
 </picker>
 ```
 
+{% endraw %}
 index.js
 
 ```js
