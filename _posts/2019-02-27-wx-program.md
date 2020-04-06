@@ -95,7 +95,7 @@ index.wxml
 ```hbs
 <text>{{a}}</text>
 <view>
-  <button size="mini" class="{{b?'active':''}}">实现按钮消失出现</button>
+  <button size="mini" class="{{b ? 'active':''}}">实现按钮消失出现</button>
   <button wx:if="{{b}}" size="mini">测试按钮</button>
 </view>
 ```
